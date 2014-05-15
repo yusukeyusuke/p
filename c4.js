@@ -39,7 +39,7 @@ try {
 
 var sheet = document.styleSheets[0];
 if(sheet.addRule) {
-    alart("c4:addRule");
+    alert("c4:addRule");
 	sheet.addRule("*", "-webkit-tap-highlight-color:" + HIRIGHT_COLOR);
 } else {
 	sheet.insertRule("*{-webkit-tap-highlight-color:" + HIRIGHT_COLOR + ";}", sheet.cssRules.length);
