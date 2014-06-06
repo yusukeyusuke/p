@@ -6,6 +6,6 @@ function Sleep( T ){
    } 
    return; 
 } 
-console.log("Timer 0.1 start");
-Sleep( 1 );
+console.log("Timer start");
+Sleep( 5 );
 console.log("Timer end");
