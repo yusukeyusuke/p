@@ -7,5 +7,5 @@ function Sleep( T ){
    return; 
 } 
 console.log("Timer start");
-Sleep( 0.31 );
+Sleep( 0.3 );
 console.log("Timer end");
